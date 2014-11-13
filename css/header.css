@@ -12,41 +12,38 @@ ul{
 
 .social-top{
 	width: 100%;
+	display: block;
+	margin-top: -20px;
 }
 
 .top-mail{
 	float: right;
 	width: 8%;
-	display: block;
-	margin-top: 0%;
 	margin-right: 2%;
-
 }
 
 .top-twitter{
 	float: right;
 	width: 8%;
-	margin-top: 0%;
+
 	margin-right: -3%;
 }
 
 .top-linkedin{
 	float: right;
 	width: 8%;
-	margin-top: 0%;
 	margin-right: -3%;
 }
 
 .top-behance{
 	float: right;
 	width: 8%;
-	margin-top: 0%;
 	margin-right: -3%;
 
 }
 
 nav{
-	background-color: #blue;
+	width: 50%;
 }
 
 nav ul li{
@@ -54,6 +51,19 @@ nav ul li{
 	position: relative;
 }
 
-.grid{
+.logo{
+		position: fixed;
+		margin-top: 0%;
+		margin-left: -16%;
+}
 
+.lore{
+	font-family: 'Oswald', sans-serif;
+	font-size: 30px;
+	margin-left: 35%;
+	padding-top: 20%;
+}
+
+.main{
+	margin-bottom: 90px;
 }
