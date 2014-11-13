@@ -18,27 +18,27 @@ ul{
 
 .top-mail{
 	float: right;
-	width: 8%;
-	margin-right: 2%;
+	width: 15%;
+	margin-right: -5%;
 }
 
 .top-twitter{
 	float: right;
-	width: 8%;
+	width: 15%;
 
-	margin-right: -3%;
+	margin-right: -6%;
 }
 
 .top-linkedin{
 	float: right;
-	width: 8%;
-	margin-right: -3%;
+	width: 15%;
+	margin-right: -6%;
 }
 
 .top-behance{
 	float: right;
-	width: 8%;
-	margin-right: -3%;
+	width: 15%;
+	margin-right: -6%;
 
 }
 
