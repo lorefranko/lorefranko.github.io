@@ -1,37 +1,58 @@
 .grid {
 	overflow: hidden;
+	margin: 10%;
+	border: 1px solid red;
 }
 
 .unit {
 	float: left;
-	background-color: #fff
+	background-color: red;
+	width: 50%;
+	background-color: #fff;
+
+
 }
 
-/*
-	Instead of including this class in your grids.css
-	Use the one included in your modular typography.css
-*/
+.unit-2-3 {
+	width: 66.6667%;
+}
+
 .gutter {
 	padding-left: 1em;
 	padding-right: 1em;
 }
 
+	.flex-img{
+		width: 100%;
+}
+
+
+/*
+	Instead of including this class in your grids.css
+	Use the one included in your modular typography.css
+*/
+
+
 
 @media only screen and (min-width: 25em) {
 
-.unit-s-1 {
-	width: 50%;
-	margin-left: 5%;
+.column-left{
+	margin: 1.5%;
+}
+
+.column-right{
+	margin: 1.5%;
 }
 
 }
 
-@media only screen and (min-width: 50em) {
+@media only screen and (min-width: 35em) {
 
-.unit-m-1-2 {
-	width: 50%;
-	margin-left: 10%;
+	.unit-l-1-3 {
+		width: 33.3333%;
 	}
+
+
 
 }
 
@@ -40,5 +61,9 @@
 	.unit-l-1-3 {
 		width: 33.3333%;
 	}
+
+	.flex-img{
+		width: 50%;
+}
 
 }
