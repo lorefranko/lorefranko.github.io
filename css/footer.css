@@ -1,0 +1,45 @@
+.footer {
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	text-decoration: none;
+	background-color: #BAB8B8;
+	height: 150px;
+	margin: 5%;
+
+}
+
+.copyright{
+	float: right;
+	padding-top: 20px;
+	margin-right: 38%;
+}
+
+.social-footer {
+	width: 100%;
+	display: block;
+	margin-top: 15px;
+	padding-top: 30px;
+}
+
+.bottom-mail{
+	float: right;
+	width: 16%;
+	margin-right: 27.5%;
+}
+.bottom-twitter{
+	float: right;
+	width: 16%;
+	margin-right: 0%;
+}
+.bottom-linkedin{
+	float: right;
+	width: 16%;
+	margin-right: 0%;
+}
+.bottom-behance{
+	float: right;
+	width: 16%;
+	margin-right: 0%;
+
+}
+

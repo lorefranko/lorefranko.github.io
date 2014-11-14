@@ -1,8 +1,15 @@
+html{
+	 background-color: #F0F0F0;
+}
+
 body{
  font-family: 'Oswald', sans-serif;
  font-weight: 300;
  text-decoration: none;
+ background-color: #fff;
+ margin: 5%;
 }
+
 
 
 

@@ -66,3 +66,43 @@ nav ul li{
 .main{
 	margin-bottom: 90px;
 }
+
+@media only screen and (min-width: 25em) {
+
+.social-right-s{
+	margin-right: .9%;
+}
+
+}
+
+@media only screen and (min-width: 40em) {
+
+	.social-right-m{
+		width: 60%;
+		float: right;
+		margin-top: 0px;
+	}
+
+}
+
+@media only screen and (min-width: 50em) {
+
+	.social-right-m{
+		width: 60%;
+
+	}
+
+}
+
+@media only screen and (min-width: 70em) {
+
+	.social-right-l{
+		width: 60%;
+	}
+
+@media only screen and (min-width: 85em) {
+
+	.social-right-xl{
+		width: 60%;
+	}
+
