@@ -1,124 +1,127 @@
-.grid {
-	overflow: hidden;
-	margin: 10%;
-	border: 1px solid red;
+.pen {
+  max-width: 290px;
+  margin: 0 auto;
 }
-
-.unit {
-	float: left;
-	background-color: red;
-	width: 100%;
-	background-color: #fff;
+.pen img {
+  margin-left: 15px;
 }
-
-
-
-.gutter {
-	padding-left: 1em;
-	padding-right: 1em;
-}
-
-	.flex-img {
-		width: 100%;
-}
-
-
-
-/*
-	Instead of including this class in your grids.css
-	Use the one included in your modular typography.css
-*/
-
-div, ul, li{
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-
-/* -- FLUID GRID STYLES -- */
-
-#Grid{
-  margin-bottom: 40px;
-  text-align: justify;
-  font-size: 0.1px;
-}
-
-#Grid li{
-  display: inline-block;
-  background: #eee;
-  width: 23%;
-  padding-top: 23%; /* Used instead of height to give elements fluid, width-based height */
-  margin-bottom: 2.5%;
-}
-
-#Grid:after{
-  content: '';
-  display: inline-block;
-  width: 100%;
-  border-top: 10px dashed #922d8d; /* Border added to make element visible for demonstration purposes */
-}
-
-#Grid .placeholder{
-  padding: 0;
-  border-top: 10px solid #922d8d; /* Border added to make element visible for demonstration purposes */
-}
-
-/* -- MEDIA QUERIES DEFINING RESPONSIVE LAYOUTS -- */
-
-/* 3 COL */
-
-@media (max-width: 800px){
-  #Grid li{
-    width: 31%;
-    padding-top: 31%;
-    margin-bottom: 3%;
-  }
-}
-
-/* 2 COL */
-
-@media (max-width: 600px){
-  #Grid li{
-    width: 48%;
-    padding-top: 48%;
-    margin-bottom: 4%;
-  }
-}
-
-/* SINGLE COL */
-
-@media (max-width: 400px){
-  #Grid li{
-    width: 100%;
-    padding-top: 100%;
-    margin-bottom: 5%;
-  }
-}
-
-
-/* -- LEGEND STYLES (NOT PART OF GRID FRAMEWORK) -- */
-
-h1{
-  font: 600 20px "Helvetica Neue";
-  text-align: right;
-  text-transform: uppercase;
-}
-
-label{
-  padding: 8px 15px;
-  margin-bottom: 20px;
+.credit {
   display: block;
-  font: 100 22px "Helvetica Neue";
-  border-left: 10px solid #922d8d;
-}
-
-label:last-of-type{
-  border-left: 10px dotted #922d8d;
-}
-
-p{
-  font: 200 15px/1.5em "Helvetica Neue";
   max-width: 400px;
+  text-align: center;
+  margin: 75px auto 0;
+  padding: 0;
+  font-size: 0.8em;
+  color: #f0f0f0;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.9);
+}
+.credit p a,
+.credit a {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+}
+.credit p a:hover,
+.credit a:hover,
+.credit p a:active,
+.credit a:active {
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.4);
+  color: white;
+}
+.credit p a.button,
+.credit a.button {
+  padding: 6px 12px;
+  margin-top: 10px;
+  background: #1a1a1a;
+  border-radius: 3px;
+}
+.credit p a.button:hover,
+.credit a.button:hover {
+  background: #4d4d4d;
+}
+.credit p:last-of-type {
   margin-bottom: 30px;
-  color: #333;
+}
+.more-button {
+  display: inline-block;
+  padding: 5px 15px 5px 0;
+  margin-left: 15px;
+  overflow: hidden;
+  top: 5px;
+  width: 20px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+}
+.more-button:before {
+  content: '\e0f2';
+  font-family: "more";
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+  display: inline-block;
+  width: 20px;
+  background: #333333;
+  cursor: pointer;
+  color: #cccccc;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.more-button:hover:before,
+.more-button:active:before {
+  color: #595959;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.more-button:hover,
+.more-button:active {
+  width: 250px;
+}
+.container {
+  display: inline-block;
+  opacity: 0;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  width: 250px;
+  position: absolute;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+.container .share-btn {
+  font-size: 1.2em;
+  padding: 10px;
+  color: #b0b0b0;
+}
+.container .share-btn:hover,
+.container .share-btn:active {
+  text-shadow: 0 0 5px rgba(85, 190, 235, 0.45);
+  color: #55beeb;
+}
+.more-button:hover > .container,
+.more-button:active > .container {
+  display: inline-block;
+  left: 35px;
+  position: absolute;
+  opacity: 1;
+  width: 250px;
+  top: 0;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
 }

@@ -40,10 +40,12 @@ body{
 
 ///////////* W O R K */////////
 
+
 .concept {
   text-align: center;
   text-decoration: none;
   list-style-type: none;
+  padding-top: 10px;
 }
 @media only screen and (min-width: 25em) {
 
