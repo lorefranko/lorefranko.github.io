@@ -48,6 +48,16 @@ body{
   list-style-type: none;
   padding-top: 10px;
 }
+
+.work-concept{
+	 font-size: 0.7901rem;
+  line-height: 1.8984;
+}
+
+.work-tittle{
+
+
+}
 @media only screen and (min-width: 25em) {
 
 
