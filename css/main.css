@@ -10,6 +10,8 @@ html {
 			-ms-text-size-adjust: 100%;
   		-webkit-text-size-adjust: 100%;
 			text-size-adjust: 100%;
+			margin-right: 5%;
+			margin-left: 5%;
 }
 
 *, *:before, *:after {
@@ -18,9 +20,8 @@ html {
 
 
 body{
-	margin-right: 5%;
-	margin-left: 5%;
 	padding: 0;
+	text-decoration: none;
 }
 
 .flex {
@@ -29,10 +30,11 @@ body{
 }
 ///////////* A B O U T */////////
 .about{
-	background-image: url("images/placeholder.jpg");
+	text-decoration: none;
 }
 
 .about-info{
+  font-size: 0.8889rem;
 
 }
 

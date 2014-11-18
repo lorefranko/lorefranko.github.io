@@ -3,43 +3,45 @@
 	font-weight: 300;
 	text-decoration: none;
 	background-color: #BAB8B8;
-	height: 150px;
-	margin: 5%;
-
+	height: 100px;
+	text-align: center;
 }
 
 .copyright{
-	float: right;
-	padding-top: 20px;
-	margin-right: 38%;
+	padding-top: 22px;
+
 }
 
 .social-footer {
 	width: 100%;
-	display: block;
+
 	margin-top: 15px;
-	padding-top: 30px;
+	padding-top: 20px;
+
 }
 
 .bottom-mail{
 	float: right;
-	width: 16%;
-	margin-right: 27.5%;
+	width: 30%;
+	margin-right: -5%;
 }
 .bottom-twitter{
 	float: right;
-	width: 16%;
-	margin-right: 0%;
+	width: 30%;
+	margin-right: -5%;
+
 }
 .bottom-linkedin{
 	float: right;
-	width: 16%;
-	margin-right: 0%;
+	width: 30%;
+		margin-right: -5%;
+
 }
 .bottom-behance{
 	float: right;
-	width: 16%;
-	margin-right: 0%;
+	width: 30%;
+	margin-right: -5%;
+
 
 }
 

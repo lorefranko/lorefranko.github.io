@@ -2,7 +2,6 @@ body{
  font-family: 'Oswald', sans-serif;
  font-weight: 300;
  text-decoration: none;
-
 }
 
 ul{
@@ -59,6 +58,9 @@ nav ul li{
 .lore{
 	text-align: center;
 	padding-top: 20%;
+	font-weight: 300;
+	margin-bottom: 0;
+  font-size: 1.4238rem;
 }
 
 
@@ -67,6 +69,7 @@ nav ul li{
 .social-right-s{
 	margin-right: .9%;
 }
+
 
 }
 
@@ -80,6 +83,14 @@ nav ul li{
 
 nav{
 	width: 40%;
+}
+
+.lore{
+	text-align: right;
+	padding-top: 20%;
+	font-weight: 300;
+	margin-bottom: 0;
+  font-size: 1.6018rem;
 }
 
 }
