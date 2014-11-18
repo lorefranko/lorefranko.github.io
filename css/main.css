@@ -20,7 +20,7 @@ html {
 
 
 body{
-	padding: 0;
+	padding-left: 10%;
 	text-decoration: none;
 }
 
@@ -35,6 +35,7 @@ body{
 
 .about-info{
   font-size: 0.8889rem;
+  position: relative;
 
 }
 
