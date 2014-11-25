@@ -17,48 +17,41 @@ ul{
 
 .top-mail{
 	float: right;
-	width: 16%;
+	width: 20%;
 	margin-right: -5%;
 }
 
 .top-twitter{
 	float: right;
-	width: 16%;
+	width: 20%;
 	margin-right: -7%;
 }
 
 .top-linkedin{
 	float: right;
-	width: 16%;
+	width: 20%;
 	margin-right: -7%;
 }
 
 .top-behance{
 	float: right;
-	width: 16%;
+	width: 20%;
 	margin-right: -7%;
 
 }
 
-nav{
-	width: 40%;
-}
-
-nav ul li{
-	float: left;
-	position: relative;
+.logo-center{
+	display: block;
+	width: 100%;
 }
 
 .logo{
-		position: fixed;
-		margin-top: -5%;
-		margin-left: -35%;
-		width: 60%;
+		display: none;
 }
 
 .lore{
 	text-align: center;
-	padding-top: 20%;
+	padding-top: 5%;
 	font-weight: 300;
 	margin-bottom: 0;
   font-size: 1.4238rem;
@@ -67,17 +60,37 @@ nav ul li{
 
 @media only screen and (min-width: 25em) {
 
+	.logo-center{
+	margin-left: 17%;
+	width: 65%;
+}
+
+
 .social-right-s{
 	margin-right: .9%;
+	display: block;
 }
 
 
 }
 
-@media only screen and (min-width: 40em) {
+@media only screen and (min-width: 38em) {
+
+	.logo-center{
+		display: none;
+}
+
+	.logo{
+		position: fixed;
+		text-align: center;
+		margin-top: -5%;
+		margin-left: -33%;
+		width: 60%;
+		display: block;
+	}
 
 	.social-right-m{
-		width: 60%;
+		width: 70%;
 		float: right;
 		margin-top: 0px;
 	}
