@@ -1,17 +1,26 @@
-// portfolio
- $('.gallery ul li a').click(function() {
-     var itemID = $(this).attr('href');
-     $('.gallery ul').addClass('item_open');
-     $(itemID).addClass('item_open');
-     return false;
- });
- $('.close').click(function() {
-     $('.port, .gallery ul').removeClass('item_open');
-     return false;
- });
+var $win = $(window);
+var $sun = $('.sun');
+var $sunSection = $('.sun-section');
+var $dipperSection = $('.dipper-section');
+var $dipper = $('.dipper');
+var $spaceShip = $('.space-ship');
+var $orangeSection = $('.orange-section');
 
- $(".gallery ul li a").click(function() {
-     $('html, body').animate({
-         scrollTop: parseInt($("#top").offset().top)
-     }, 400);
- });
+
+$win.on('scroll',function () {
+	var scrollPos = $win.scrollTop();
+
+	$sun.css('transform', 'rotate(' + scrollPos / 5 + 'deg)');
+	$sunSection.css('background-position', 'center ' + scrollPos / 2 + 'px')
+
+
+});
+
+$dipperSection.waypoint(function () {
+  $dipper.addClass('js-dipper-fade');
+}, { offset: '50%' });
+
+$orangeSection.waypoint(function () {
+  $spaceShip.addClass('js-shuttle-fade');
+}, { offset: '50%' });
+
