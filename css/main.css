@@ -28,7 +28,6 @@ header{
     width: 100%;
     height: 90px;
     background: rgba(255,255,255,1);
-    opacity: 2;
     top:0;
     position: relative;
     position: fixed;
@@ -36,12 +35,12 @@ header{
 
 header .logo{
     float: left;
-    width: 90px;
+    width: 16%;
 }
 
 header nav{
     float: right;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 nav a {
@@ -95,7 +94,7 @@ img {
 
 @media only screen and (min-width:1291px){
     /* desktop = 4 tiles */
-        .top-section {
+.top-section {
     padding: 18em 0 16em 0;
     }
 }
@@ -114,8 +113,8 @@ img {
 }
 
 .top-section {
-    background: transparent url("../images/placeholder.jpg") no-repeat center top fixed;
-    background-size: cover;
+    background-color: rgb(251, 220, 105);
+    background-position: fixed;
     padding: 10em 0 10em 0;
 }
 
@@ -198,14 +197,14 @@ img {
 }
 
 .gallery-section {
-    background-color: rgba(64,64,64,1);
+    background: transparent url("../images/p5.jpg") no-repeat center top fixed;
     padding: 150px 10px 30px 10px;
 }
 
 .gallery-section h2 {
     text-align: center;
     text-transform: uppercase;
-    color: white;
+    color: #000;
 }
 
 .gallery-section hr {
@@ -334,14 +333,17 @@ img {
 footer{
     width: 100%;
     padding: 10px 0;
-    background: #3e3d3d;
+    background: #000;
     text-align: center;
 }
 
-footer .copyrights{
+footer .copyright{
     float: center;
 }
 
+.copyright {
+    color: #fff;
+}
 footer .copyrights p{
     display: inline-block;
     color: #b6b6b6;
@@ -351,7 +353,7 @@ footer .copyrights p{
     letter-spacing: .5px;
 }
 
-footer .copyrights a{
+footer .copyright a{
     color: #d7d7d7;
     font-family: "opensans-semibold", arial;
     font-weight: bold;
@@ -363,7 +365,7 @@ footer .copyrights a{
     -o-transition:all .2s linear;
 }
 
-footer .copyrights a:hover{
+footer .copyright a:hover{
     color: #ffffff;
 }
 
@@ -440,10 +442,7 @@ footer nav ul li a:hover {
 
 @media only screen and (max-width: 480px) {
     /* mobie = 1 tile */
-    header nav ul li {
-        margin-left: 0;
-        margin-right: 10px;
-    }
+
     .top-section h1 {
         font-size: 2.5em;
     }
@@ -566,76 +565,16 @@ footer nav ul li a:hover {
     }
 }
 
-@media only screen and (max-width:1050px) and (min-width:651px) {
-
-        .skills {
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .skills ul {
-        text-align: center;
-        margin: 0px;
-        padding: 5em;
-        width: 100%;
-        overflow: hidden;
-    }
-    .skills li {
-        float: left;
-        padding: 2em;
-        width: 33.3%;
-        margin-left: auto ;
-        margin-right: auto ;
-    }
-}
 
 @media only screen and (max-width:1290px) and (min-width:1051px) {
     /* ipad = 3 tiles */
     .top-section {
     padding: 15em 0 15em 0;
     }
-        .skills {
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .skills ul {
-        text-align: center;
-        margin: 0px;
-        padding: 5em;
-        width: 100%;
-        overflow: hidden;
-    }
-    .skills li {
-        float: left;
-        padding: 2em;
-        width: 33.3%;
-        margin-left: auto ;
-        margin-right: auto ;
-    }
 }
 @media only screen and (min-width:1291px){
     /* desktop = 4 tiles */
         .top-section {
     padding: 18em 0 16em 0;
-    }
-        .skills {
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .skills ul {
-        text-align: center;
-        margin: 0px;
-        padding: 5em;
-        width: 100%;
-        overflow: hidden;
-    }
-    .skills li {
-        float: left;
-        padding: 2em;
-        width: 33.3%;
-        margin-left: auto ;
-        margin-right: auto ;
     }
 }
