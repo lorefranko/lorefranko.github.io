@@ -98,3 +98,542 @@ img {
     padding: 18em 0 16em 0;
     }
 }
+
+.banner {
+    color: white;
+    text-align: center;
+}
+
+.banner h1 {
+    font-size: 3em;
+}
+
+.banner h2 {
+    font-size: 1em;
+}
+
+.top-section {
+    background: transparent url("../img/banner2.jpg") no-repeat center top;
+    background-size: cover;
+    padding: 10em 0 10em 0;
+}
+
+.top-section h1 {
+    font-size: 2.5em;
+}
+
+.top-section h2 {
+    font-size: 1em;
+}
+
+.about-section h2 {
+    font-size: 1em;
+}
+
+.top-section hr {
+    display: block;
+    border: 0;
+    width: 150px;
+    height: 3px;
+    background: white;
+    margin: 20px auto;
+}
+
+.info {
+    background-color: rgba(64,64,64,1);
+    color: white;
+    padding: 150px 40px 100px 40px;
+}
+
+.info p {
+    max-width: 60%;
+}
+
+
+.stuff {
+    text-align:center;
+}
+
+.skills {
+    padding: 0;
+    margin: 0;
+}
+
+.skills ul {
+}
+
+.skills li {
+    display: block;
+}
+
+.skills h2,
+.skills p {
+    text-align: center;
+}
+
+.about-section {
+    background-color: #fff;
+    text-align: center;
+    border: 150px 0 100px 0;
+}
+
+.about-section h2 {
+    text-align: center;
+}
+
+.about-section hr {
+    display: block;
+    border: 0;
+    width: 150px;
+    height: 3px;
+    background: #797979;
+    margin: 60px auto;
+}
+
+.icon {
+    width: 60px;
+    float: center;
+}
+
+.gallery-section {
+    background-color: rgba(64,64,64,1);
+    padding: 150px 10px 30px 10px;
+}
+
+.gallery-section h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+.gallery-section hr {
+    display: block;
+    border: 0;
+    width: 150px;
+    height: 3px;
+    background: #797979;
+    margin: 60px auto;
+}
+
+.contact-section {
+    background-color: #aaa;
+    text-align: center;
+    padding: 10rem 0;
+}
+
+.contact-blurb {
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+/** START LIGHTBOX **/
+
+.lightbox {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+}
+
+.lightbox:target {
+    outline: none;
+    text-decoration: none;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.lightbox-image {
+    width: 50%;
+    padding: 0 1em;
+}
+
+.lightbox-text {
+    text-align: left;
+    color: #fff;
+    padding: .5em;
+    width: 40%;
+}
+
+/** END LIGHTBOX **/
+
+/**  contact  **/
+.contact{
+    padding: 100px 0 30px 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+.contact .title{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.contact hr{
+    display: block;
+    border: 0;
+    width: 100px;
+    height: 1px;
+    background: #797979;
+    margin: 60px auto;
+}
+
+.contact .email,
+.contact .phone{
+    color: grey;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.phone a {
+    text-decoration: none;
+    color: grey;
+}
+
+.contact .email{
+    margin-bottom: 40px;
+}
+
+.contact-icon {
+    width: 100px;
+}
+.nav-bottom {
+    bottom: 0;
+    display: inline;
+}
+
+/**  footer  **/
+.logo-footer {
+    width: 30px;
+}
+
+footer{
+    width: 100%;
+    padding: 10px 0;
+    background: #3e3d3d;
+    text-align: center;
+}
+
+footer .copyrights{
+    float: center;
+}
+
+footer .copyrights p{
+    display: inline-block;
+    color: #b6b6b6;
+    font-family: "Open Sans", sans-serif;
+    font-size: 13px;
+    margin-left: 20px;
+    letter-spacing: .5px;
+}
+
+footer .copyrights a{
+    color: #d7d7d7;
+    font-family: "opensans-semibold", arial;
+    font-weight: bold;
+    text-decoration: none;
+
+    transition:all .2s linear;
+    -webkit-transition:all .2s linear;
+    -moz-transition:all .2s linear;
+    -o-transition:all .2s linear;
+}
+
+footer .copyrights a:hover{
+    color: #ffffff;
+}
+
+footer nav ul{
+    list-style-type: none;
+    float: center;
+}
+
+footer nav ul li {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+footer nav ul li a {
+    color: white;
+}
+
+footer nav ul li a:hover {
+    color: grey;
+    transition:all .3s linear;
+  -webkit-transition:all .3s linear;
+  -moz-transition:all .3s linear;
+  -o-transition:all .3s linear;
+}
+
+.social{
+    float: center;
+}
+
+.social ul{
+    list-style: none;
+    overflow: hidden;
+}
+
+
+.social ul li{
+    display: inline-block;
+    margin-right: 25px;
+    letter-spacing: .5px;
+}
+
+.social ul li:last-child{
+    margin-right: 20px;
+}
+
+.social ul li a{
+    color: #b5b5b5;
+    font-size: 14px;
+    text-decoration: none;
+
+    transition:all .2s linear;
+    -webkit-transition:all .2s linear;
+    -moz-transition:all .2s linear;
+    -o-transition:all .2s linear;
+}
+
+.social ul li a:hover{
+    color: #fff;
+}
+
+.error {
+    text-align: center;
+    padding: 10em;
+}
+
+.error h2 {
+
+}
+
+.error footer {
+    position: bottom;
+    bottom: 0;
+}
+
+@media only screen and (max-width: 480px) {
+    /* mobie = 1 tile */
+    header nav ul li {
+        margin-left: 0;
+        margin-right: 10px;
+    }
+    .top-section h1 {
+        font-size: 2.5em;
+    }
+    .top-section h2 {
+        font-size: 1em;
+    }
+    .about-section h2 {
+        font-size: 1em;
+    }
+
+    .lightbox:target {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-direction: normal;
+    -moz-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    }
+
+    .lightbox-image {
+        width: 90%;
+        padding: 1em;
+    }
+
+    .lightbox-text {
+        color: #fff;
+        padding: 1em;
+        margin-top: 8em;
+        width: 90%;
+        overflow: scroll;
+    }
+
+    .lightbox h3 {
+        font-size: 1.25em;
+    }
+
+}
+
+@media only screen and (max-width:650px) and (min-width:481px) {
+    /* Tablet = 2 tiles */
+    .top-section {
+    padding: 15em 0 12em 0;
+    }
+    .top-section h1 {
+        font-size: 3em;
+    }
+    .top-section h2 {
+        font-size: 1.5em;
+    }
+    .about-section h2 {
+        font-size: 1.5em;
+    }
+        .lightbox:target {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-direction: normal;
+    -moz-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    }
+
+    .lightbox-image {
+        width: 70%;
+        padding: 1em;
+    }
+
+    .lightbox-text {
+        color: #fff;
+        padding: 1em;
+        margin-top: 10em;
+        width: 70%;
+        overflow: scroll;
+    }
+    .lightbox h3 {
+        font-size: 1.25em;
+    }
+}
+
+@media only screen and (max-width:1050px) and (min-width:651px) {
+
+        .skills {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .skills ul {
+        text-align: center;
+        margin: 0px;
+        padding: 5em;
+        width: 100%;
+        overflow: hidden;
+    }
+    .skills li {
+        float: left;
+        padding: 2em;
+        width: 33.3%;
+        margin-left: auto ;
+        margin-right: auto ;
+    }
+}
+
+@media only screen and (max-width:1290px) and (min-width:1051px) {
+    /* ipad = 3 tiles */
+    .top-section {
+    padding: 15em 0 15em 0;
+    }
+        .skills {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .skills ul {
+        text-align: center;
+        margin: 0px;
+        padding: 5em;
+        width: 100%;
+        overflow: hidden;
+    }
+    .skills li {
+        float: left;
+        padding: 2em;
+        width: 33.3%;
+        margin-left: auto ;
+        margin-right: auto ;
+    }
+}
+@media only screen and (min-width:1291px){
+    /* desktop = 4 tiles */
+        .top-section {
+    padding: 18em 0 16em 0;
+    }
+        .skills {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .skills ul {
+        text-align: center;
+        margin: 0px;
+        padding: 5em;
+        width: 100%;
+        overflow: hidden;
+    }
+    .skills li {
+        float: left;
+        padding: 2em;
+        width: 33.3%;
+        margin-left: auto ;
+        margin-right: auto ;
+    }
+}
