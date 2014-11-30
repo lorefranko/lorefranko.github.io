@@ -1,3 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #EEE;
+}
+.gallery {
+    overflow: hidden;
+    margin: 10px;
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.box {
+    float: left;
+    width: 20%;
+}
+
+.boxinside {
+    padding: 10px;
+}
+
+.boxinside img { width: 100% }
+
+
+@media only screen and (max-width:480px) {
+    /* mobile = 1 tile */
+    .box {
+        width: 100%;
+    }
+}
+@media only screen and (max-width:650px) and (min-width:481px) {
+    /* Tablet = 2 tiles */
+    .box {
+        width: 50%;
+    }
+}
+@media only screen and (max-width:1050px) and (min-width:651px) {
+    /* ipad = 3 tiles */
+    .box {
+        width: 33.3%;
+    }
+}
+@media only screen and (max-width:1290px) and (min-width:1051px) {
+    /* desktop = 4 tiles */
+    .box {
+        width: 25%;
+    }
+}
+
+
+
 .grid {
   margin: 0;
   padding: 0;

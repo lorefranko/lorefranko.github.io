@@ -1,13 +1,3 @@
-html {
-  font: normal 100%/1.5 'Oswald', sans-serif;
-  text-decoration: none;
-}
-
-body a, a:hover{
-  text-decoration: none;
-  color: #000;
-}
-
 
 @media only screen and (min-width: 60em) {
 
@@ -56,16 +46,13 @@ h1, .exa {
 }
 
 h2, .peta {
-  font-size:
-
-
+  font-size: 1.6018rem;
   line-height: 1.8729;
 }
 
 h3, .tera {
   font-size: 1.4238rem;
   line-height: 1.0535;
-  font-weight: 300;
 }
 
 h4, .giga {
@@ -109,28 +96,16 @@ sub {
   bottom: -0.25em;
 }
 
-.text-left {
+.align-left {
   text-align: left;
 }
 
-.text-right {
+.align-right {
   text-align: right;
 }
 
-.text-center {
+.align-center {
   text-align: center;
-}
-
-.normal {
-  font-weight: normal;
-}
-
-.bold {
-  font-weight: bold;
-}
-
-.italic {
-  font-style: italic;
 }
 
 .push {
@@ -174,7 +149,7 @@ sub {
 }
 
 .island {
-  padding: 1.5rem;
+  padding: 2rem;
 }
 
 .island-half, .island-1-2 {
