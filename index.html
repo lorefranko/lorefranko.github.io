@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="handheldfriendly" content="true">
 	<meta name="mobileoptimized" content="240">
-	<meta name="viewport" content="width=device-width,intial-scale=1">
+	<meta name="viewport" content="width=device-width,initial-scale=1">
 	<meta name="description" content="Lorena Franco Graphic Designer Portfolio Website">
 	<link href="css/typography.css" rel="stylesheet">
 	<link href="css/info.css" rel="stylesheet">
@@ -41,32 +41,33 @@
 	<meta name="twitter:image3" content="http://lorenafranco.ca/img/portfolio">
 
 </head>
-<body>
-<!-- Header -->
 	<header>
-		<section class="social-top" itemscope itemtype="http://schema.org/Person">
-			<ul class="social-right-s social-right-m social-right-l social-right-xl">
-				<li class="top-mail"><a href="mailto:hey@lorenafranco.ca" itemprop="email"><img src="images/mail.svg" alt="e-mail hey@lorenafranco.ca"></a></li>
-				<li class="top-twitter"><a href="http://twitter.com/loreclap" target="_blank"><img src="images/twitter.svg" alt="Twitter"></a></li>
-				<li class="top-behance"><a href="https://www.behance.net/lorenafranko" target="_blank"><img src="images/behance.svg" alt="Behance"></a></li>
-				<li class="top-linkedin"><a href="http://ca.linkedin.com/pub/lorena-franco/64/490/745" target="_blank"><img src="images/linkedin.svg" alt="LinkedIn"></a></li>
-			</ul>
-		</section>
-		<nav>
-			<ul>
-				<li><a href="http://lorenafranco.ca/#work">WORK</a></li>
-				<li><a href="http://lorenafranco.ca/#contact">CONTACT</a></li>
-				<li><a href="http://lorenafranco.ca/#about">ABOUT</a></li>
-			</ul>
-		</nav>
-		<section><h1 class="lore">LORENA FRANCO</h1></section>
-		<hr>
+			<nav class="menu-opener">
+			    <div class="menu-opener-inner"></div>
+			  </nav>
+			  <nav class="menu">
+			    <ul class="menu-inner">
+			      <a href=".work" class="menu-link">
+			        <li>work</li>
+			      </a>
+			      <a href=".about" class="menu-link">
+			        <li>about</li>
+			      </a>
+			      <a href=".contact" class="menu-link">
+			        <li>contact</li>
+			      </a>
+			    </ul>
 	</header>
+
+	<div class="main">
+	    <h1><span>I Design</span><br>Stuff</h1>
+	    <div class="mouse">
+	        <span></span>
+	    </div>
+	</div>
 <!-- About -->
 	<section id="about" class="about text-center grid ">
 		<a class="unit unit-xs-1 unit-s-3-1 unit-m-3-1 unit-l-3-1" href="1" itemscope itemtype="http://schema.org/CreativeWork">
-				<div class="wrap">
-					<div class="collapse transparent">
 						<h3 class="about" itemprop="name">This is Me!</h3>
 							<figcaption class="concept">
 								<p class="milli work-concept" itemprop="description">
@@ -79,8 +80,6 @@
 									hence the need to retrain even slightly with each new project I do.
 								</p>
 							</figcaption>
-					</div>
-				</div>
 		</a>
 	</section>
 <!-- About Ends -->
@@ -228,8 +227,11 @@
 			</ul>
 			<p class="copyright">© 2014 · Lorena Franco</p>
 	</footer>
-<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-<script src="js/info.js"></script>
+
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="js/info.js"></script>
+	<script src="js/gallery.js"></script>
 </body>
 </html>
 
