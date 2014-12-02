@@ -197,7 +197,6 @@ header{
     height: 57px;
     background: rgba(255,255,255,1);
     top:0;
-    position: relative;
     position: fixed;
 }
 
