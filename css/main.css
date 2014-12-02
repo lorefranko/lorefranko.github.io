@@ -207,7 +207,7 @@ header .logo{
 }
 
 .logo h2{
-  color: #EDECC5;
+  color: #179FBC;
 }
 
 header nav{
@@ -272,16 +272,13 @@ img {
 }
 
 .banner {
-    color: white;
+    color: #000;
     text-align: center;
     margin: 10%;
 }
 
-
-
 .top-section {
-    background-color: #000;
-    background-position: fixed;
+    background-color: #FFF77B;
     padding: 10em 0 10em 0;
 }
 
@@ -294,7 +291,9 @@ img {
 }
 
 .about-section h2 {
-    font-size: 1em;
+    text-transform: uppercase;
+    color: #179FBC;
+    font-weight: 300;
 }
 
 .top-section hr {
@@ -302,15 +301,14 @@ img {
     border: 0;
     width: 150px;
     height: 3px;
-    background: white;
+    background: #179FBC;
     margin: 20px auto;
 }
 
 .info {
-    background: transparent url("../images/grey.jpg") no-repeat center center fixed;
-    background-size: 700%;
+    background: transparent url("../images/p5.jpg") no-repeat center center fixed;
     color: #000;
-    padding: 150px 40px 100px 40px;
+    padding: 50px 20px 100px 20px;
 }
 
 
@@ -349,14 +347,16 @@ img {
 }
 
 .gallery-section {
-    background: transparent url("../images/p5.jpg") no-repeat center top fixed;
-    padding: 60px 10px 30px 10px;
+    background: transparent url("../images/grey.jpg") no-repeat center top fixed;
+    padding: 60px 5px 60px 5px;
 }
 
 .gallery-section h2 {
     text-align: center;
     text-transform: uppercase;
-    color: #BBC14E;
+    color: #179FBC;
+    font-weight: 300;
+    font-size: 2em;
 }
 
 .gallery-section hr {
@@ -538,7 +538,7 @@ footer nav ul li a {
 }
 
 footer nav ul li a:hover {
-    color: grey;
+    color: rgb(152, 175, 209);
     transition:all .3s linear;
   -webkit-transition:all .3s linear;
   -moz-transition:all .3s linear;
@@ -604,7 +604,7 @@ footer nav ul li a:hover {
         font-size: 1em;
     }
     .about-section h2 {
-        font-size: 1em;
+        font-size: 2em;
     }
 
     .lightbox:target {
