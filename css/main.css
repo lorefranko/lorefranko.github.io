@@ -63,7 +63,7 @@ a {
   width: 64px;
 }
 .menu-opener:hover, .menu-opener.active {
-  background: #EDECC5;
+  background: #FFF77B;
 }
 
 .menu-opener-inner {
@@ -194,7 +194,7 @@ header {
 
 header{
     width: 100%;
-    height: 61px;
+    height: 57px;
     background: rgba(255,255,255,1);
     top:0;
     position: relative;
@@ -204,6 +204,7 @@ header{
 header .logo{
     float: left;
     width: 14%;
+    margin-left: 6px;
 }
 
 .logo h2{
@@ -245,13 +246,13 @@ header nav ul li a.selected {
 }
 
 header nav ul li a:active {
-    background-color: yellow;
+    background-color: rgb(23, 159, 188);
 }
 
 
 header nav a:hover,
 header nav li.active a {
-    background-color: yellow;
+    background-color: rgb(23, 159, 188);
 }
 
 nav:ul {
