@@ -648,6 +648,7 @@ footer nav ul li a:hover {
         padding: 1em;
         margin-top: 8em;
         width: 90%;
+        overflow: scroll;
     }
 
     .lightbox h3 {
