@@ -55,7 +55,7 @@ a {
   height: 64px;
   position: fixed;
   top: 0;
-  right: 2.5%;
+  right: 1.5%;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
@@ -110,7 +110,7 @@ a {
   height: 64px;
   position: fixed;
   top: -3%;
-  right: 3%;
+  right: 1.5%;
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
