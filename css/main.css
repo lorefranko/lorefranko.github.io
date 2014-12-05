@@ -274,8 +274,7 @@ img {
 }
 
 .top-section {
-    background: transparent url("../images/lore-1.jpg") no-repeat center center fixed;
-    background-size: cover;
+    background-color: #FFF77B;
     padding: 10em 0 10em 0;
 }
 
@@ -300,7 +299,7 @@ img {
 }
 
 .info {
-    background: transparent url("../images/p5.jpg") no-repeat center center fixed;
+    background-color: #fff;
     color: #000;
     background-size: cover;
     padding: 50px 20px 60px 20px;
@@ -474,7 +473,7 @@ img {
         font-size: 1.5em;
     }
     .gallery-section {
-        padding: 70px 5px 60px 5px;
+        padding: 75px 5px 60px 5px;
     }
 
     .lightbox:target {

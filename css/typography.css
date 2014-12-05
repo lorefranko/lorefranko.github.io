@@ -1,4 +1,6 @@
-
+html{
+  font-family: 'Marcellus', serif;
+}
 @media only screen and (min-width: 60em) {
 
 
@@ -72,6 +74,7 @@ small, .milli {
   font-size: 0.8889rem;
   line-height: 1.6875;
   font-weight: 300;
+  font-family: 'Marcellus', serif;
 }
 
 .micro {
