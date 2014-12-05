@@ -102,6 +102,7 @@ $('.slider').each(function() {              // For every slider
 
 });
 
+
 /*
  version of this tv https://dribbble.com/shots/1757383-Television?list=shots&sort=popular&timeframe=now&offset=69
 */
