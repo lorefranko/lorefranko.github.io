@@ -1,16 +1,19 @@
 .rw-wrapper{
-	width: 80%;
+	width: 100%;
 	position: relative;
 	font-family: 'oswald' sans-serif;
+	margin-bottom: 33%;
 }
 .rw-sentence h2{
-	text-align: center;
+	text-align: left;
 }
 .rw-sentence span{
 	color: #444;
 }
 .rw-words{
 	display: inline;
+	padding-left: 3%;
+
 }
 .rw-words-1 span{
 	position: absolute;
@@ -78,6 +81,20 @@
 	80% { opacity: 0; }
     100% { opacity: 0; }
 }
+
+@media only screen and (min-width: 33em) {
+
+
+}
+
+@media only screen and (min-width: 21em) {
+
+      .rw-wrapper{
+        margin-bottom: 0;
+    }
+
+}
+
 @media screen and (max-width: 768px){
 	.rw-sentence { font-size: 18px; }
 }

@@ -321,7 +321,8 @@ img {
 
 
 .about-section h2 {
-    text-align: center;
+    text-align: left;
+    margin-left: 13%;
 }
 
 .about-section hr {
@@ -330,7 +331,7 @@ img {
     width: 150px;
     height: 3px;
     background: #797979;
-    margin: 30px auto;
+
 }
 
 .icon {
@@ -422,6 +423,22 @@ img {
     width: 40%;
 }
 
+@media only screen and (min-width: 17.5em) {
+
+      .about-section h2 {
+        margin-left: 20%;
+    }
+
+}
+
+@media only screen and (min-width: 21em) {
+
+      .about-section h2 {
+        margin-left: 30%;
+    }
+
+}
+
 @media only screen and (max-width: 480px) {
     /* mobie = 1 tile */
 
@@ -432,7 +449,7 @@ img {
         font-size: 1em;
     }
     .about-section h2 {
-        font-size: 2em;
+        font-size: 1.5em;
     }
 
     .lightbox:target {
