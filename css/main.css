@@ -353,7 +353,7 @@ img {
     text-transform: uppercase;
     color: #179FBC;
     font-weight: 300;
-    font-size: 2em;
+    font-size: 1.7em;
 }
 
 .gallery-section hr {
@@ -715,13 +715,17 @@ footer .copyright{
     color: #EDECC5;
     font-size: small;
     font-weight: 300;
-    margin-top: 13%;
+    margin-top: 30%;
 }
 
 .chat{
     background: transparent url("../images/lore-1.jpg") no-repeat center center fixed;
     color: #000;
     padding: 50px 20px 60px 20px;
+}
+
+.milli li{
+    font-size: 1.5em;
 }
 footer .copyright p{
     display: inline-block;
@@ -818,4 +822,6 @@ footer nav ul li a:hover {
     position: bottom;
     bottom: 0;
 }
+
+
 
