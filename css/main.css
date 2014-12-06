@@ -580,7 +580,7 @@ img {
         padding: 1em;
         margin-top: 10em;
         width: 70%;
-        overflow: scroll;
+        overflow: auto;
     }
     .lightbox h3 {
         font-size: 1.25em;
