@@ -23,7 +23,7 @@ html {
 nav{
         width: 100%;
         z-index: 999;
-        background-color: #000;
+        background-color: #383F40;
 }
 
 header {
@@ -105,7 +105,7 @@ a {
 }
 
 .menu {
-  background: #000;
+  background: #383F40;
   color: transparent;
   height: 64px;
   position: fixed;
@@ -703,7 +703,7 @@ img {
 footer{
     width: 100%;
     padding: 60px 5%;
-    background: #000;
+    background: #383F40;
     text-align: center;
     padding-bottom: -10%;
 
@@ -714,10 +714,11 @@ footer .copyright{
 }
 
 .copyright {
-    color: #EDECC5;
+    color: #383F40;
     font-size: small;
     font-weight: 300;
-    margin-top: 30%;
+    padding: 2%;
+    text-align: center;
 }
 
 .chat{
@@ -769,7 +770,7 @@ footer nav ul li {
 }
 
 footer nav ul li a {
-    color: white;
+    color: rgb(122, 199, 216);
 }
 
 footer nav ul li a:hover {
@@ -836,7 +837,59 @@ footer nav ul li a:hover {
 }
 
 
+@import "compass/utilities/general/clearfix";
 
+/* Social Icons Config */
+$SocialIconSize: 64px;
+
+/* Animation Time */
+$AnimationTime: .2s;
+
+/* General Colors */
+$White: rgb(255,255,255);
+
+/* Social Site Colors */
+$Behance: rgb(23,105,255);
+$Codepen: rgb(0,0,0);
+$Facebook: rgb(59,89,152);
+$GooglePlus: rgb(221,75,57);
+$LinkedIn: rgb(29,135,190);
+$Mail: rgb(226,78,67);
+$Pinterest: rgb(204,34,41);
+$Twitter: rgb(85,172,238);
+$YouTube: rgb(229,44,40);
+
+body {
+  background: rgb(40,40,40); }
+
+.socialIcon {
+  height: $SocialIconSize;
+  width: $SocialIconSize; }
+
+.wrapper {
+  text-align: center; }
+
+.socialLinks
+{
+  @include clearfix();
+  display: inline-block;
+  margin: 80px 0 0 0;
+  a {
+    display: block;
+    background: transparent;
+    border: 1px solid $White;
+    float: left;
+    height: $SocialIconSize*1.6;
+    margin: 15px;
+    position: relative;
+    @include transition(background $AnimationTime/2 linear, border $AnimationTime/2 linear);
+    width: $SocialIconSize*1.6;
+    .socialIcon {
+      left: 50%;
+      margin: (-$SocialIconSize/2) 0 0 (-$SocialIconSize/2);
+      position: absolute;
+      top: 50%; }
+  }
 
 
 
