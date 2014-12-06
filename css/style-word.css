@@ -3,6 +3,7 @@
 	position: relative;
 	font-family: 'oswald' sans-serif;
 	margin-bottom: 33%;
+	background-color: rgb(56, 63, 64);
 }
 .rw-sentence h2{
 	text-align: left;
@@ -12,7 +13,7 @@
 }
 .rw-words{
 	display: inline;
-	padding-left: 3%;
+	padding-left: 1%;
 
 }
 .rw-words-1 span{
@@ -20,7 +21,6 @@
 	opacity: 0;
 	overflow: hidden;
 	color: #FFF77B;
-	background-color: rgb(148, 150, 135);
 	-webkit-animation: rotateWord 10s linear infinite 0s;
 	-ms-animation: rotateWord 10s linear infinite 0s;
 	animation: rotateWord 10s linear infinite 0s;
@@ -96,9 +96,4 @@
 
 }
 
-@media screen and (max-width: 768px){
-	.rw-sentence { font-size: 18px; }
-}
-@media screen and (max-width: 320px){
-	.rw-sentence { font-size: 9px; }
-}
+
