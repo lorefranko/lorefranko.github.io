@@ -702,9 +702,11 @@ img {
 
 footer{
     width: 100%;
-    padding: 60px 0;
+    padding: 60px 5%;
     background: #000;
     text-align: center;
+    padding-bottom: -10%;
+
 }
 
 footer .copyright{
@@ -726,7 +728,11 @@ footer .copyright{
 
 .milli li{
     font-size: 1.5em;
+    font-family: "oswald" sans-serif;
+    font-weight: 300;
+    padding-top: 7%;
 }
+
 footer .copyright p{
     display: inline-block;
     color: #b6b6b6;
@@ -822,6 +828,15 @@ footer nav ul li a:hover {
     position: bottom;
     bottom: 0;
 }
+
+.nav-bottom p{
+  color: #fff;
+  font-size: 200;
+  font-family: 'Marcellus', serif;
+}
+
+
+
 
 
 
