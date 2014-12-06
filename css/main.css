@@ -433,6 +433,10 @@ img {
     font-weight: 300;
 }
 
+.dexter{
+  display: none;
+}
+
 @media only screen and (min-width: 60em) {
 
       .info {
@@ -462,6 +466,20 @@ img {
         margin-left: 30%;
     }
 
+}
+
+@media only screen and (max-width: 25em) {
+
+      .about-section {
+        background: #fff;
+        padding: 0;
+    }
+
+      .dexter{
+        display: block;
+        width: 110%;
+        margin-left: -3%;
+      }
 }
 
 @media only screen and (min-width: 30em) {
