@@ -239,53 +239,5 @@ figure {
 
 
 /* Mobile-first Responsive======================================= */
-    @media screen and (min-width:560px){
-        header section, section {
-            width:550px;
-        }
-        header section { font-size:1.2em; text-align:left; padding:30px 15px; }
-    }
 
-    @media screen and (min-width:820px){
-        header section, section { width:840px; }
-
-        header h1 { font-size:1.7em; padding:0 30px; }
-        header ul { padding:0 30px; }
-
-        hgroup { text-align:left; line-height:7rem; overflow:hidden;  }
-
-
-        .creatures { animation:enter .7s .2s both; transform-origin:center top; }
-            @keyframes enter { 0%{ transform:translateY(50px) scale(.8); opacity:0; } 100%{ transform:none; } }
-        .creatures li { padding:30px; }
-
-        .logo, .make, .tweet { display:inline-block; }
-        .make { padding:0 30px; margin-right:45px; }
-        .logo { padding:0 15px 0 45px; }
-            .logo span, .make span { border-bottom:2px solid transparent; }
-            .logo:hover span { border-color:#494636; }
-
-        .make { float:right; border-radius:0 0 30px 30px; background:#3B382B; color:#F8EEB9; font-weight:700;
-                 box-shadow:-15px -30px #3B382B, 15px -30px #3B382B; transition:.3s; }
-            .make:hover span { border-color:#F8EEB9; }
-            .make:hover, .opened { background:#29271E; box-shadow:-15px -30px #29271E, 15px -30px #29271E; }
-
-        .make:before, .make:after { position:absolute; top:0; display:block; content:""; }
-        .make:before, .make:after { width:30px; height:100%; background:#F8EEB9 }
-        .make:before { left:-30px; border-radius:0 15px 0 0; }
-        .make:after { right:-30px; border-radius:15px 0 0; }
-
-        time { display:block; transition:.2s; transition-delay:.2s; opacity:0; }
-        li:hover time, li:nth-child(-n+2) time { opacity:1; }
-    }
-
-
-    @media screen and (min-width:1070px){
-        header section, section { width:1070px; }
-        header ul { width:760px; }
-            .creatures li { padding:30px; }
-            .creatures li:nth-child(3n){ padding:60px 30px 0;  }
-            .creatures li:nth-child(3n+1){ padding:20px 30px 40px; }
-            .creatures li:nth-child(3n+2){ padding:45px 30px 15px;  }
-    }
 
