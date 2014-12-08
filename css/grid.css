@@ -19,7 +19,10 @@ body {
     padding: 10px;
 }
 
-.boxinside img { width: 100% }
+.boxinside img {
+
+  width: 100%
+}
 
 
 @media only screen and (max-width:480px) {
@@ -39,11 +42,27 @@ body {
     .box {
         width: 33.3%;
     }
+
 }
 @media only screen and (max-width:1290px) and (min-width:1051px) {
     /* desktop = 4 tiles */
     .box {
         width: 25%;
+    }
+
+     .boxinside img {
+      width: 80%
+    }
+}
+
+@media only screen and (max-width:1690px) and (min-width:1290px) {
+    /* desktop = 4 tiles */
+    .box {
+        width: 25%;
+    }
+
+     .boxinside img {
+      width: 70%
     }
 }
 
