@@ -90,58 +90,6 @@
     100% { opacity: 0; }
 }
 
-@media only screen and (min-width: 60em) {
-
-	    .rw-wrapper{
-	     	font-size: 1.9em;
-        margin-bottom: 0;
-    }
-
-		  .nav-bottom h2{
-        font-size: 1.9em;
-        margin-right: 20%;
-      }
-
-      .gallery-section h2{
-        font-size: 1.9em;
-        margin-right: -3%;
-      }
-
-      .about-section h2{
-        font-size: 1.9em;
-
-      }
-}
-
-@media only screen and (min-width: 45em) {
-
-		  .nav-bottom h2{
-        font-size: 1.7em;
-        margin-right: 20%;
-      }
-
-      .gallery-section h2{
-        font-size: 1.7em;
-        margin-right: -3%;
-      }
-
-      .about-section h2{
-        font-size: 1.7em;
-
-      }
-
-}
-
-@media only screen and (min-width: 30em) {
-
-	    .rw-wrapper{
-	     	font-size: 1.5em;
-        margin-bottom: 0;
-    }
-
-
-
-}
 
 @media only screen and (min-width: 25em) {
 
@@ -157,4 +105,55 @@
 
 }
 
+@media only screen and (min-width: 30em) {
 
+	    .rw-wrapper{
+	     	font-size: 1.4em;
+        margin-bottom: 0;
+    }
+
+}
+
+@media only screen and (min-width: 45em) {
+
+		  .nav-bottom h2{
+        font-size: 1.5em;
+        margin-right: 20%;
+      }
+
+      .gallery-section h2{
+        font-size: 1.5em;
+        margin-right: -3%;
+      }
+
+      .about-section h2{
+        font-size: 1.5em;
+        margin-left: 35%;
+
+      }
+
+}
+
+ @media only screen and (min-width: 60em) {
+
+	    .rw-wrapper{
+	     	font-size: 1.7em;
+        margin-bottom: 0;
+    }
+
+		  .nav-bottom h2{
+        font-size: 1.7em;
+        margin-right: 20%;
+      }
+
+      .gallery-section h2{
+        font-size: 1.7em;
+        margin-right: -3%;
+      }
+
+      .about-section h2{
+        font-size: 1.7em;
+        margin-right: 35%;
+
+      }
+}

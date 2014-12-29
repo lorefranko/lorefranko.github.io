@@ -321,7 +321,7 @@ img {
 
 .about-section {
     background: transparent url("../images/dexter.jpg") no-repeat center top fixed;
-    padding: 100px 5px 100px 5px;
+    padding: 0px 5px 100px 5px;
     text-align: center;
     border: 150px 0 100px 0;
 }
@@ -456,7 +456,6 @@ img {
 
     .about-section{
         background-position: right;
-        margin-right: 11%;
     }
 
 }
