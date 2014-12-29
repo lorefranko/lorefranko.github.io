@@ -4,26 +4,33 @@
 	font-family: 'oswald' sans-serif;
 	margin-bottom: 33%;
 	background-color: rgb(56, 63, 64);
+		margin: 0;
+	text-align: left;
 }
 .rw-sentence h2{
 	text-align: left;
+	margin: 0;
 }
 .rw-sentence span{
 	color: #179FBC;
+	margin: 0;
+	text-align: center;
 }
 .rw-words{
 	display: inline;
 	padding-left: 1%;
+		margin: 0;
 
 }
 .rw-words-1 span{
 	position: absolute;
+	margin: 0;
 	opacity: 0;
 	overflow: hidden;
 	color: #FFF77B;
-	-webkit-animation: rotateWord 10s linear infinite 0s;
-	-ms-animation: rotateWord 10s linear infinite 0s;
-	animation: rotateWord 10s linear infinite 0s;
+	-webkit-animation: rotateWord 9s linear infinite 0s;
+	-ms-animation: rotateWord 9s linear infinite 0s;
+	animation: rotateWord s linear infinite 0s;
 }
 .rw-words-1 span:nth-child(2) {
     -webkit-animation-delay: 3s;
@@ -44,15 +51,15 @@
 	color: #7a6b9d;
 }
 .rw-words-1 span:nth-child(5) {
-    -webkit-animation-delay: 12s;
-	-ms-animation-delay: 12s;
-	animation-delay: 12s;
+    -webkit-animation-delay: 11s;
+	-ms-animation-delay: 11s;
+	animation-delay: 11s;
 	color: #8d6b9d;
 }
 .rw-words-1 span:nth-child(6) {
-    -webkit-animation-delay: 15s;
-	-ms-animation-delay: 15s;
-	animation-delay: 15s;
+    -webkit-animation-delay: 14s;
+	-ms-animation-delay: 14s;
+	animation-delay: 14s;
 	color: #9b6b9d;
 }
 @-webkit-keyframes rotateWord {
@@ -83,16 +90,70 @@
     100% { opacity: 0; }
 }
 
-@media only screen and (min-width: 33em) {
+@media only screen and (min-width: 60em) {
+
+	    .rw-wrapper{
+	     	font-size: 1.9em;
+        margin-bottom: 0;
+    }
+
+		  .nav-bottom h2{
+        font-size: 1.9em;
+        margin-right: 20%;
+      }
+
+      .gallery-section h2{
+        font-size: 1.9em;
+        margin-right: -3%;
+      }
+
+      .about-section h2{
+        font-size: 1.9em;
+
+      }
+}
+
+@media only screen and (min-width: 45em) {
+
+		  .nav-bottom h2{
+        font-size: 1.7em;
+        margin-right: 20%;
+      }
+
+      .gallery-section h2{
+        font-size: 1.7em;
+        margin-right: -3%;
+      }
+
+      .about-section h2{
+        font-size: 1.7em;
+
+      }
+
+}
+
+@media only screen and (min-width: 30em) {
+
+	    .rw-wrapper{
+	     	font-size: 1.5em;
+        margin-bottom: 0;
+    }
+
 
 
 }
 
-@media only screen and (min-width: 21em) {
+@media only screen and (min-width: 25em) {
 
       .rw-wrapper{
         margin-bottom: 0;
+	     	font-size: 1.3em;
     }
+
+		  .nav-bottom h2{
+        margin-left: 10%;
+      }
+
 
 }
 
