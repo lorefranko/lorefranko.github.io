@@ -201,15 +201,14 @@ header{
     position: fixed;
 }
 
-header .logo{
+.logo{
     float: left;
-    width: 14%;
-    margin-left: 6px;
+    width: auto;
+    height: 100%;
+    margin-left: 4%;
+    position: absolute;
 }
 
-.logo h2{
-  color: #179FBC;
-}
 
 .menu{
     float: right;
@@ -264,6 +263,11 @@ img {
 	margin: 0 auto;
 }
 
+.logo-main{
+  padding-top: 100px;
+  width: 70%;
+}
+
 .banner {
     text-align: center;
 }
@@ -274,8 +278,9 @@ img {
 
 .top-section {
 
-    background-color: #FFF77B;
-    padding: 10em 0 10em 0;
+  background: transparent url("../images/p5.jpg");
+  background-size: cover;
+      padding: 0px 0px 100px 0px;
 }
 
 .top-section h2 {
