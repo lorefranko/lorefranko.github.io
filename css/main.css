@@ -477,6 +477,9 @@ img {
         margin-left: 20%;
       }
 
+      .logo-main{
+        width: 38%;
+      }
 }
 
 @media only screen and (max-width: 25em) {
@@ -488,7 +491,7 @@ img {
 
       .dexter{
         display: block;
-        width: 110%;
+        width: 105%;
         margin-left: -3%;
       }
 
@@ -504,13 +507,27 @@ img {
         margin-left: 20%;
       }
 
+      .logo-main{
+        width: 25%;
+      }
+
+     .top-section hr{
+        width: 230px;
+    }
 
 }
 
 @media only screen and (min-width: 46em) {
+
       footer h2{
         font-size: 2.2em;
       }
+
+      .top-section hr{
+        margin-bottom: 4%;
+        margin-top: 2%;
+        width: 230px;
+    }
 }
 
 @media only screen and (min-width: 60em) {
@@ -525,6 +542,22 @@ img {
         background-position: right;
     }
 
+      .logo-main{
+        width: 20%;
+      }
+
+    .top-section hr{
+      margin-bottom: 4%;
+      margin-top: 2%;
+      width: 230px;
+    }
+}
+
+
+@media only screen and (min-width: 75em) {
+      .logo-main{
+        width: 15%;
+      }
 }
 
 @media only screen and (max-width: 480px) {
@@ -684,9 +717,8 @@ img {
         font-size: 1.5em;
     }
 
-
-
 }
+
 @media only screen and (min-width:1291px){
 
     .top-section h1 {
