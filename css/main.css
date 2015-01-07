@@ -265,7 +265,7 @@ img {
 
 .logo-main{
   padding-top: 100px;
-  width: 60%;
+  width: 44%;
 }
 
 .banner {
@@ -274,13 +274,20 @@ img {
 
 .banner h3{
     font-weight: 300;
+    margin-top: -2%;
 }
 
 .top-section {
 
-  background: transparent url("../images/p5.jpg");
-  background-size: cover;
-      padding: 0px 0px 100px 0px;
+    background: transparent url("../images/p5.jpg");
+    background-size: cover;
+    padding: 0px 0px 100px 0px;
+}
+
+.top-section h1{
+    font-weight: 300;
+    margin-bottom: -25px;
+    margin-top: 5%;
 }
 
 .top-section h2 {
@@ -296,8 +303,8 @@ img {
 .top-section hr {
     display: block;
     border: 0;
-    width: 150px;
-    height: 3px;
+    width: 185px;
+    height: 2px;
     background: #179FBC;
     margin: 20px auto;
 }
