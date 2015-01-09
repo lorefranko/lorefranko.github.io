@@ -107,7 +107,7 @@ a {
 .menu {
   background: #383F40;
   color: transparent;
-  height: 64px;
+  height: 69px;
   position: fixed;
   top: -3.5%;
   right: 1.5%;
@@ -207,6 +207,7 @@ header{
     height: 100%;
     margin-left: 4%;
     position: absolute;
+    z-index: 999;
 }
 
 
