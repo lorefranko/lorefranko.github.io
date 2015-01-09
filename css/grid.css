@@ -16,12 +16,16 @@ body {
 }
 
 .boxinside {
-    padding: 10px;
+    margin: 10px;
+    background: #FFF77B;
 }
 
 .boxinside img {
-
   width: 100%
+}
+
+.hover img:hover {
+    opacity:0.8;
 }
 
 
@@ -55,7 +59,7 @@ body {
     }
 }
 
-@media only screen and (max-width:1690px) and (min-width:1290px) {
+@media only screen and (max-width:1690px) and (min-width:1291px) {
     /* desktop = 4 tiles */
     .box {
         width: 33.3%;
