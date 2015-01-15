@@ -612,7 +612,7 @@ img {
     .lightbox-text {
         color: #fff;
         padding: 1em;
-        margin-top: 8em;
+        margin-top: 0;
         width: 90%;
         overflow: auto; /* Overflow SCROLL shows scroll bar all the time.
                            Overflow AUTO shows scroll just when need it*/
@@ -676,7 +676,7 @@ img {
     .lightbox-text {
         color: #fff;
         padding: 1em;
-        margin-top: 10em;
+        margin-top: 0;
         width: 70%;
         overflow: auto;
 
@@ -726,6 +726,10 @@ img {
     .top-section h2 {
         font-size: 1.5em;
     }
+
+    .lightbox-text {
+    margin-top: 2em;
+}
 }
 
 @media only screen and (min-width: 90em){
