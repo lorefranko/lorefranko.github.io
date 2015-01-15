@@ -163,23 +163,6 @@ a {
 }
 
 
-@media screen and (max-width: 768px) {
-  .menu {
-    height: auto;
-  }
-  .menu-inner {
-    display: block;
-  }
-  .menu-link {
-    padding: 10px 0;
-    font-size: 1.2em;
-  }
-  .menu.active {
-    width: -webkit-calc(100% - 0.5rem);
-    width: calc(100% - 0.5rem);
-  }
-}
-
     /* -------- End Nav ------ */
 
 body a{
@@ -467,6 +450,17 @@ img {
         margin-left: 20%;
     }
 
+          .about-section {
+        background: #fff;
+        padding: 0;
+    }
+
+      .dexter{
+        display: block;
+        width: 105%;
+        margin-left: -3%;
+      }
+
 }
 
 @media only screen and (min-width: 21em) {
@@ -484,20 +478,23 @@ img {
       }
 }
 
-@media only screen and (max-width: 25em) {
-
-      .about-section {
-        background: #fff;
-        padding: 0;
-    }
-
-      .dexter{
-        display: block;
-        width: 105%;
-        margin-left: -3%;
-      }
-
+@media screen and (min-width: 25em) {
+  .menu {
+    height: auto;
+  }
+  .menu-inner {
+    display: block;
+  }
+  .menu-link {
+    padding: 10px 0;
+    font-size: 1.2em;
+  }
+  .menu.active {
+    width: -webkit-calc(100% - 0.5rem);
+    width: calc(100% - 0.5rem);
+  }
 }
+
 
 @media only screen and (min-width: 30em) {
 
@@ -562,7 +559,7 @@ img {
       }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (min-width: 25em) {
     /* mobie = 1 tile */
 
     .top-section h1 {
@@ -631,7 +628,7 @@ img {
 
 }
 
-@media only screen and (max-width:650px) and (min-width:481px) {
+@media only screen and (min-width: 30em) {
     /* Tablet = 2 tiles */
     .top-section h1 {
         font-size: 3em;
@@ -694,7 +691,7 @@ img {
 
 }
 
-@media only screen and (max-width:1291px) and (min-width: 651px) {
+@media only screen and (min-width: 40em) {
     /* desktop = 4 tiles */
     .top-section h1 {
         font-size: 3em;
@@ -710,7 +707,7 @@ img {
 
 
 
-@media only screen and (max-width:1290px) and (min-width:1051px) {
+@media only screen and (min-width: 65em) {
 
     .top-section h1 {
         font-size: 3em;
@@ -721,7 +718,7 @@ img {
 
 }
 
-@media only screen and (min-width:1291px){
+@media only screen and (min-width: 80em){
 
     .top-section h1 {
         font-size: 3em;
@@ -731,7 +728,7 @@ img {
     }
 }
 
-@media only screen and (min-width:1440px) and (max-width: 2500px){
+@media only screen and (min-width: 90em){
 
     .top-section h1 {
         font-size: 3em;
