@@ -167,6 +167,8 @@ a {
 
 body a{
   text-decoration: none;
+      background: transparent url("../images/p5.jpg");
+    background-size: cover;
 }
 
 /*  ----------- header ---------- */
@@ -293,7 +295,7 @@ img {
 }
 
 .info {
-    background: rgba(255,255,255,0.7);
+    background: rgba(255, 247, 123, 1);
     color: #000;
     background-size: cover;
     padding: 15%;
@@ -501,7 +503,7 @@ img {
         .info{
           padding: 4%;
           margin-bottom: 15%;
-          background-color: white;
+          background: rgba(255, 247, 123, 1);
         }
 }
 
@@ -685,6 +687,10 @@ img {
      .dexter{
      width: 50%;
      float: left;
+    }
+
+    .info{
+      background-color: #fff;
     }
 }
 
