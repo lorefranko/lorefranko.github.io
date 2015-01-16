@@ -699,6 +699,10 @@ img {
         font-size: 1.5em;
     }
 
+      .gallery-section{
+    display: inline-block;
+  }
+
 }
 
 @media only screen and (min-width: 80em){
