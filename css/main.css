@@ -315,13 +315,6 @@ img {
 }
 
 
-.about-section {
-    background: transparent url("../images/dexter.jpg") no-repeat center top fixed;
-    padding: 0px 0px 100px 0px;
-    text-align: center;
-    border: 150px 0 100px 0;
-}
-
 .about-section h2 {
     text-align: left;
     margin-left: 19%;
@@ -344,7 +337,7 @@ img {
 }
 
 .gallery-section {
-    background: transparent url("../images/grey.jpg") no-repeat center top fixed;
+
     padding: 60px 0px 60px 0px;
 }
 
@@ -430,7 +423,7 @@ img {
 }
 
 .lightbox-text p{
-    font-family: "Marcellus" serif;
+    font-family: "oswald" sans-serif;
 }
 
 .lightbox-text h3{
@@ -440,7 +433,9 @@ img {
 
 
 .dexter{
-  display: none;
+  width: 90%;
+  height: auto;
+  margin: 5%;
 }
 
 
@@ -450,16 +445,10 @@ img {
         margin-left: 20%;
     }
 
-          .about-section {
+       .about-section {
         background: #fff;
         padding: 0;
     }
-
-      .dexter{
-        display: block;
-        width: 105%;
-        margin-left: -3%;
-      }
 
 }
 
@@ -514,6 +503,18 @@ img {
         width: 230px;
     }
 
+      .dexter{
+        width: 90%;
+      }
+
+}
+@media only screen and (min-width: 37em) {
+
+        .info{
+          padding: 4%;
+          margin-bottom: 15%;
+          background-color: white;
+        }
 }
 
 @media only screen and (min-width: 46em) {
@@ -531,20 +532,13 @@ img {
 
 @media only screen and (min-width: 60em) {
 
-      .info {
-        width: 40%;
-        padding: 3%;
-        margin-left: 10%;
-    }
-
-    .about-section{
-        background-position: right;
-    }
-
       .logo-main{
         width: 20%;
       }
-
+    .dexter{
+      width: auto;
+      height: auto;
+    }
     .top-section hr{
       margin-bottom: 4%;
       margin-top: 2%;
@@ -702,7 +696,12 @@ img {
 
     .lightbox-text p{
     font-size: 1em;
-}
+    }
+
+     .dexter{
+     width: 50%;
+     float: left;
+    }
 }
 
 
@@ -749,6 +748,13 @@ img {
         width: 2.5em;
       }
 
+}
+
+@media only screen and (min-width: 100em){
+
+  .gallery-section{
+    display: inline-block;
+  }
 }
 /*---------- END LIGHTBOX ---------*/
 

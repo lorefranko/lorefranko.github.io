@@ -1,5 +1,5 @@
 html{
-  font-family: 'Marcellus', serif;
+  font-family: 'oswald', sans-serif;
 }
 @media only screen and (min-width: 60em) {
 
@@ -183,10 +183,6 @@ sub {
 
 @import url('//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css');
 
-
-body {
-  background-color: #212121;
-}
 
 .social-icons {
   width: 100%;
