@@ -167,8 +167,6 @@ a {
 
 body a{
   text-decoration: none;
-      background: transparent url("../images/p5.jpg");
-    background-size: cover;
 }
 
 /*  ----------- header ---------- */
@@ -550,7 +548,7 @@ img {
     }
 
     .gallery-section {
-        padding: 75px 5px 60px 5px;
+        padding: 75px 5px 60px 0px;
     }
 
     .lightbox:target {
