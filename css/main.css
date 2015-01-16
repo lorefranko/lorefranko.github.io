@@ -278,11 +278,6 @@ img {
     font-size: 1em;
 }
 
-.about-section h2 {
-    text-transform: uppercase;
-    color: #179FBC;
-    font-weight: 400;
-}
 
 .top-section hr {
     display: block;
@@ -314,32 +309,25 @@ img {
     text-align:center;
 }
 
+.about-section{
+  height: 100%;
+}
 
 .about-section h2 {
+    text-transform: uppercase;
+    color: #179FBC;
+    font-weight: 400;
     text-align: left;
     margin-left: 19%;
     font-size: 1.3em;
 }
 
-.about-section hr {
-    display: block;
-    border: 0;
-    width: 200px;
-    height: 3px;
-    background: #797979;
-    margin: 30px auto;
-
-}
 
 .icon {
     width: 60px;
     float: center;
 }
 
-.gallery-section {
-
-    padding: 60px 0px 60px 0px;
-}
 
 .gallery-section h2 {
     text-align: center;
@@ -535,10 +523,6 @@ img {
       .logo-main{
         width: 20%;
       }
-    .dexter{
-      width: auto;
-      height: auto;
-    }
     .top-section hr{
       margin-bottom: 4%;
       margin-top: 2%;
@@ -728,7 +712,12 @@ img {
 
     .lightbox-text {
     margin-top: 2em;
-}
+  }
+
+    .gallery-section{
+    display: inline-block;
+  }
+
 }
 
 @media only screen and (min-width: 90em){
