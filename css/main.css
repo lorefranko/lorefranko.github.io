@@ -426,7 +426,22 @@ img {
   margin: 5%;
 }
 
-
+@media screen and (min-width: 11em) {
+  .menu {
+    height: auto;
+  }
+  .menu-inner {
+    display: block;
+  }
+  .menu-link {
+    padding: 10px 0;
+    font-size: 1.2em;
+  }
+  .menu.active {
+    width: -webkit-calc(100% - 0.5rem);
+    width: calc(100% - 0.5rem);
+  }
+}
 @media only screen and (min-width: 17.5em) {
 
       .about-section h2 {
@@ -455,22 +470,7 @@ img {
       }
 }
 
-@media screen and (min-width: 25em) {
-  .menu {
-    height: auto;
-  }
-  .menu-inner {
-    display: block;
-  }
-  .menu-link {
-    padding: 10px 0;
-    font-size: 1.2em;
-  }
-  .menu.active {
-    width: -webkit-calc(100% - 0.5rem);
-    width: calc(100% - 0.5rem);
-  }
-}
+
 
 
 @media only screen and (min-width: 30em) {
@@ -537,7 +537,7 @@ img {
       }
 }
 
-@media only screen and (min-width: 25em) {
+
     /* mobie = 1 tile */
 
     .top-section h1 {
@@ -604,7 +604,7 @@ img {
         font-size: 1.25em;
     }
 
-}
+
 
 @media only screen and (min-width: 30em) {
     /* Tablet = 2 tiles */
