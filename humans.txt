@@ -1,0 +1,22 @@
+# TEAM
+
+Designer & Developer: Lorena Franco
+Site: http://lorenafranco.ca
+GitHub: http://github.com/lorefranko
+Twitter: @loreclap
+Location: Ottawa, Canada
+
+---
+
+# THANKS
+
+Slideshow from Some Person ,http://slideshow.com>
+Big Image © Another Person _http://gettyimages.com>
+
+---
+
+# TECHNOLOGY
+
+- Sublime Text
+- GitHub
+- Hover.com

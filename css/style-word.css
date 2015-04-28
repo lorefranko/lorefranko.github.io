@@ -1,0 +1,148 @@
+.rw-wrapper{
+	width: 100%;
+	position: relative;
+	font-family: 'oswald' sans-serif;
+	margin-bottom: 33%;
+	background-color: rgb(56, 63, 64);
+		margin: 0;
+	text-align: left;
+}
+.rw-sentence h2{
+	text-align: left;
+	margin: 0;
+}
+.rw-sentence span{
+	color: #179FBC;
+	margin: 0;
+	text-align: center;
+}
+.rw-words{
+	display: inline;
+	padding-left: 1%;
+		margin: 0;
+
+}
+.rw-words-1 span{
+	position: absolute;
+	margin: 0;
+	opacity: 0;
+	overflow: hidden;
+	color: #FFF77B;
+	-webkit-animation: rotateWord 9s linear infinite 0s;
+	-ms-animation: rotateWord 9s linear infinite 0s;
+	animation: rotateWord s linear infinite 0s;
+}
+.rw-words-1 span:nth-child(2) {
+    -webkit-animation-delay: 3s;
+	-ms-animation-delay: 3s;
+	animation-delay: 3s;
+	color: #FFF77B;
+}
+.rw-words-1 span:nth-child(3) {
+    -webkit-animation-delay: 6s;
+	-ms-animation-delay: 6s;
+	animation-delay: 6s;
+	color: #FFF77B;
+}
+.rw-words-1 span:nth-child(4) {
+    -webkit-animation-delay: 9s;
+	-ms-animation-delay: 9s;
+	animation-delay: 9s;
+	color: #7a6b9d;
+}
+.rw-words-1 span:nth-child(5) {
+    -webkit-animation-delay: 11s;
+	-ms-animation-delay: 11s;
+	animation-delay: 11s;
+	color: #8d6b9d;
+}
+.rw-words-1 span:nth-child(6) {
+    -webkit-animation-delay: 14s;
+	-ms-animation-delay: 14s;
+	animation-delay: 14s;
+	color: #9b6b9d;
+}
+@-webkit-keyframes rotateWord {
+    0% { opacity: 0; }
+    2% { opacity: 0; -webkit-transform: translateY(-30px); }
+	5% { opacity: 1; -webkit-transform: translateY(0px);}
+    17% { opacity: 1; -webkit-transform: translateY(0px); }
+	20% { opacity: 0; -webkit-transform: translateY(30px); }
+	80% { opacity: 0; }
+    100% { opacity: 0; }
+}
+@-ms-keyframes rotateWord {
+    0% { opacity: 0; }
+    2% { opacity: 0; -ms-transform: translateY(-30px); }
+	5% { opacity: 1; -ms-transform: translateY(0px);}
+    17% { opacity: 1; -ms-transform: translateY(0px); }
+	20% { opacity: 0; -ms-transform: translateY(30px); }
+	80% { opacity: 0; }
+    100% { opacity: 0; }
+}
+@keyframes rotateWord {
+    0% { opacity: 0; }
+    2% { opacity: 0; -webkit-transform: translateY(-30px); transform: translateY(-30px); }
+	5% { opacity: 1; -webkit-transform: translateY(0px); transform: translateY(0px);}
+    17% { opacity: 1; -webkit-transform: translateY(0px); transform: translateY(0px); }
+	20% { opacity: 0; -webkit-transform: translateY(30px); transform: translateY(30px); }
+	80% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+
+@media only screen and (min-width: 25em) {
+
+      .rw-wrapper{
+        margin-bottom: 0;
+	     	font-size: 1.3em;
+    }
+
+		  .nav-bottom h2{
+        margin-left: 10%;
+      }
+
+
+}
+
+
+@media only screen and (min-width: 45em) {
+
+		  .nav-bottom h2{
+        font-size: 1.5em;
+        margin-right: 20%;
+      }
+
+      .gallery-section h2{
+        font-size: 1.5em;
+        margin-right: -3%;
+      }
+
+      .about-section h2{
+        font-size: 1.5em;
+        margin-left: 35%;
+
+      }
+
+}
+
+ @media only screen and (min-width: 60em) {
+
+
+
+		  .nav-bottom h2{
+        font-size: 1.6em;
+        margin-right: 20%;
+      }
+
+      .gallery-section h2{
+        font-size: 1.6em;
+        margin-right: -3%;
+      }
+
+      .about-section h2{
+        font-size: 1.6em;
+        margin-right: 35%;
+
+      }
+}
