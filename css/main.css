@@ -271,10 +271,13 @@ img {
 
 .top-section h1{
     font-weight: 300;
-    margin-bottom: -25px;
-    margin-top: 5%;
+    margin-top: 0;
 }
 
+h1{
+  text-align: center;
+  padding-top: 200px;
+}
 .top-section h2 {
     font-size: 1em;
 }
@@ -598,7 +601,7 @@ img {
     }
 
     .lightbox-text p{
-      font-family: "Marcellus" serif;
+      font-family: "oswald" serif;
     }
 
     .lightbox h3 {
