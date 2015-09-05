@@ -264,14 +264,14 @@ img {
 
 .top-section {
 
-    background: transparent url("../images/b.jpg");
+    background: transparent url("../images/nieve.jpg");
     background-size: 100%;
-    padding-bottom: 200px ;
 }
 
 .logo-c{
   position: relative;
-  width: 50%;
+  width: 30%;
+  opacity: .1;
   padding-top: 150px;
 }
 .top-section h1{
