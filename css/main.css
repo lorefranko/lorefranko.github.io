@@ -18,7 +18,6 @@ html {
     box-sizing: inherit;
 }
 
-
     /* -------- Starts Nav ------ */
 
 nav{
@@ -263,8 +262,6 @@ img {
 }
 
 .top-section {
-
-    background: transparent url("../images/nieve.jpg");
     background-size: 100%;
 }
 
@@ -953,6 +950,7 @@ footer nav ul li a:hover {
   font-size: 200;
   font-family: 'Marcellus', serif;
 }
+
 
 
 
