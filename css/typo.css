@@ -1,104 +1,77 @@
-/* Typography */
-html {
-	font: normal 100%/1.5 'Oswald', Arial, sans-serif;
+
+
+h2{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    line-height: 28px;
+    padding-top: 50px;
+    font-family: "Montserrat", sans-serif;
 }
 
-h1, h2, h3, h5, h6,
-p, ul, ol, dl, dd,
-blockquote, details, hr,
-fieldset, pre, table {
-	font-family: 'Oswald', sans-serif;
-	margin: 0 0 1.5rem;
+h3{
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+    padding-top: 20px;
+    font-family: "Montserrat", sans-serif;
 }
 
-h4 {
-	font-family: 'Oswald', sans-serif;
-	margin: 0;
+h4{
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    line-height: 19px;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 12px;
+    margin-top: 35px;
 }
 
-.yotta {
-	font-size: 2.2807rem;
-	line-height: 1.3154;
-}
-
-.zetta {
-	font-size: 2.0273rem;
-	line-height: 1.4798;
-}
-
-h1, .exa {
-	font-size: 1.8020rem;
-	line-height: 1.6648;
-}
-
-h2, .peta {
-	font-size: 1.6018rem;
-	line-height: 1.8729;
-	letter-spacing: 0.1em;
-}
-
-h3, .tera {
-	font-size: 1.4238rem;
-	line-height: 1.0535;
-}
-
-h4, .giga {
-	font-size: 1.2656rem;
-	line-height: 1.1852;
-}
-
-h5, .mega {
-	font-size: 1.1250rem;
-	line-height: 1.3333;
-	color: #c7c0ae;
-}
-
-h6, .kilo {
-	font-size: 1.0000rem;
-	line-height: 1.5000;
-
-}
-
-small, .milli {
-	font-size: 0.8889rem;
-	line-height: 1.6875;
-}
 
 .micro {
 	font-size: 0.7901rem;
 	line-height: 1.4;
 }
 
-h1, h2, h3, h4, h5, h6,
-.brand {
-	font-family: "futura",sans-serif;
-	text-transform: uppercase;
+a,a:visited,a:hover,a:active{
+  -webkit-backface-visibility:hidden;
+          backface-visibility:hidden;
+  transition:0.5s color ease;
+  text-decoration:none;
+  color:#000;
+}
+a:hover{
+  color:#1bc4e1;
+}
+a.before:before,a.after:after{
+  content: "";
+  transition:0.5s all ease;
+  -webkit-backface-visibility:hidden;
+          backface-visibility:hidden;
+  position:absolute;
+}
+a.before:before{
+  top:-0.25em;
+}
+a.after:after{
+  bottom:-0.25em;
+}
+a.before:before,a.after:after{
+  height:5px;
+  height:0.35rem;
+  width:0;
+  background:#d73444;
 }
 
-.brand-family {
-	font-family: "futura",sans-serif;
-}
-
-.brand-color {
-	color: #c7c0ae;
-}
-
-.section-heading {
-	border-bottom: 2px solid #EBECEE;
-	margin-top: 3rem;
-	color: #FFF;
-	padding: 3rem;
-}
-
-a,
-a:link {
-	transition: all 150ms linear;
-	text-decoration: none;
-
+a.before:hover:before,a.after:hover:after{
+  width:100%;
 }
 
 .push {
-	margin-bottom: 1.5rem;
+	margin-bottom: .8rem;
 }
 
 .push-none, .push-0 {
@@ -219,7 +192,6 @@ figcaption {
 }
 
 .quote {
-	background: #fff;
 	color: #A8A7A3;
 	padding: 6rem 1rem 0;
 	max-width: 30rem;

@@ -1,0 +1,20 @@
+.services{
+  margin:0 25%;
+  padding-bottom: 45px;
+}
+
+.services ul {
+    margin-left: 10px;
+    margin-top: 0;
+}
+
+.services h4{
+    margin-left: 15px;
+}
+
+
+@media only screen and (max-width: 862px) {
+  .services{
+  margin:0 15%;
+}
+}
