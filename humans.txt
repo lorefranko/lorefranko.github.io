@@ -10,8 +10,7 @@ Location: Ottawa, Canada
 
 # THANKS
 
-Slideshow from Some Person ,http://slideshow.com>
-Big Image © Another Person _http://gettyimages.com>
+Codepen contact from someone codepen.com
 
 ---
 
