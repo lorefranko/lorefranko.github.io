@@ -14,32 +14,12 @@ body {
   font-weight: 300;
   line-height: 1.5;
   color: #333;
-  margin: 0;
+  margin: 0 5%;
   font-size: 19px;
 }
 
 a {
   color: #fff;
-}
-
-.row {
-  width: 100%;
-  max-width: 1170px;
-  margin: 0 auto;
-  padding: 0;
-  clear: both;
-}
-.row img {
-  max-width: 100%;
-  height: auto;
-  padding: 0;
-  margin: 0;
-}
-
-.gallery ul li {
-  float: left;
-  margin: 0 0.8771929825%;
-  overflow: hidden;
 }
 
 header {
@@ -78,21 +58,6 @@ header p {
   }
 }
 
-.gallery {
-  padding: 40px 0 80px;
-  position: relative;
-  overflow: hidden;
-}
-.gallery ul {
-  padding-top: 50px;
-  position: relative;
-}
-.gallery ul li {
-  margin-bottom: 20px;
-  width: 23.2456140351%;
-  position: relative;
-}
-
 .header-full{
   margin:25px;
 }
@@ -103,4 +68,66 @@ header p {
 
 .project{
   margin: 15%;
+}
+
+/* -- DEFAULTS -- */
+
+div, ul, li{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+/* -- FLUID GRID STYLES -- */
+
+#Grid{
+  margin-bottom: 40px;
+  text-align: justify;
+  font-size: 0.1px;
+}
+
+#Grid li{
+  display: inline-block;
+  width: 31%;
+      padding-top: 2%;
+    margin-bottom: 2%;
+}
+
+#Grid:after{
+  content: '';
+  display: inline-block;
+  width: 100%;
+}
+
+
+/* -- MEDIA QUERIES DEFINING RESPONSIVE LAYOUTS -- */
+
+/* 3 COL */
+
+@media (max-width: 800px){
+  #Grid li{
+    width: 31%;
+    padding-top: 2%;
+    margin-bottom: 2%;
+  }
+}
+
+/* 2 COL */
+
+@media (max-width: 600px){
+  #Grid li{
+    width: 48%;
+    padding-top: 2%;
+    margin-bottom: 2%;
+  }
+}
+
+/* SINGLE COL */
+
+@media (max-width: 400px){
+  #Grid li{
+    width: 100%;
+    padding-top: 3%;
+    margin-bottom: 3%;
+  }
 }
