@@ -33,7 +33,7 @@ header h1 {
   font-size: 45px;
   font-weight: 400;
   letter-spacing: 3px;
-  line-height: 0.8;
+  line-height: 1;
   padding-top: 110px;
   font-family: "Montserrat", sans-serif;
 }
@@ -95,6 +95,8 @@ div, ul, li{
   margin-bottom: 40px;
   text-align: justify;
   font-size: 0.1px;
+  margin-left: 4%;
+  margin-right: 4%;
 }
 
 #Grid li{
@@ -115,7 +117,7 @@ div, ul, li{
 
 /* 3 COL */
 
-@media (max-width: 800px){
+@media (max-width: 1300px){
   #Grid li{
     width: 31%;
     padding-top: 2%;
@@ -123,9 +125,9 @@ div, ul, li{
   }
 }
 
-/* 2 COL */
+/* 2 COL
 
-@media (max-width: 600px){
+@media (max-width: 1000px){
   #Grid li{
     width: 48%;
     padding-top: 2%;
@@ -133,9 +135,11 @@ div, ul, li{
   }
 }
 
+*/
+
 /* SINGLE COL */
 
-@media (max-width: 400px){
+@media (max-width: 670px){
   #Grid li{
     width: 100%;
     padding-top: 3%;
