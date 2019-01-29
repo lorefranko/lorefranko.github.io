@@ -14,7 +14,7 @@ body {
   font-weight: 300;
   line-height: 1.5;
   color: #333;
-  margin: 0 5%;
+  margin: 0 ;
   font-size: 19px;
 }
 
@@ -57,18 +57,29 @@ header p {
       letter-spacing: 5px;
   }
 }
-
+/* -- PROJECTS -- */
 .header-full{
-  margin:25px;
+  margin:0;
 }
 
+div.header-full h1 {
+    padding-top: 40px;
+}
 .image-full{
   width: 100%;
 }
 
 .project{
-  margin: 15%;
+  margin: 0 15%;
+  text-align: center;
 }
+
+.project-photos{
+  margin: 0 1%;
+  margin-bottom: 50px;
+}
+
+/* -- END PROJECTS -- */
 
 /* -- DEFAULTS -- */
 
@@ -78,7 +89,7 @@ div, ul, li{
   list-style-type: none;
 }
 
-/* -- FLUID GRID STYLES -- */
+/* -- FLUID GRID STYLES GALLERY -- */
 
 #Grid{
   margin-bottom: 40px;
