@@ -1,18 +1,21 @@
 .services{
-  margin:0 25%;
+  margin:0 15%;
   padding-bottom: 45px;
+  text-align: center;
 }
 
 .services ul {
-    margin-left: 10px;
+    text-indent: 25px;
     margin-top: 0;
 }
 
-.services h4{
-    margin-left: 15px;
+
+@media only screen and (max-width: 400px) {
+  .services h4{
+  font-size: 14px;
+  letter-spacing: 4px;
+  }
 }
-
-
 @media only screen and (max-width: 862px) {
   .services{
   margin:0 15%;
