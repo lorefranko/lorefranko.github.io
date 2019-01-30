@@ -49,8 +49,8 @@ nav ul li a {
   font-weight: bold;
   transition: all 0.2s ease;
 }
-nav ul li a:hover {
-  color: #34495E;
+nav-hover ul{
+  color: red;
 }
 a.active {
   border-bottom: 2px solid #ecf0f1;
@@ -83,6 +83,7 @@ a.active {
     nav ul li a{
     font-size: 1rem;
   }
+
 }
 
 

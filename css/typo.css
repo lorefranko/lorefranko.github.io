@@ -38,7 +38,7 @@ h4{
     font-size: 17px;
     font-weight: 400;
     letter-spacing: 5px;
-    line-height: 19px;
+    line-height: 22px;
     font-family: "Montserrat", sans-serif;
     margin-bottom: 12px;
     margin-top: 35px;
@@ -57,7 +57,6 @@ a,a:visited,a:hover,a:active{
           backface-visibility:hidden;
   transition:0.5s color ease;
   text-decoration:none;
-  color:#000;
 }
 a:hover{
   color:#1bc4e1;
@@ -74,12 +73,6 @@ a.before:before{
 }
 a.after:after{
   bottom:-0.25em;
-}
-a.before:before,a.after:after{
-  height:5px;
-  height:0.35rem;
-  width:0;
-  background:#d73444;
 }
 
 a.before:hover:before,a.after:hover:after{
