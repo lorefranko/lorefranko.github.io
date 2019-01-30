@@ -186,7 +186,7 @@ a.before:hover:before,a.after:hover:after{
 	color: #1e273e;
 	text-align: left;
 	font-weight: 400;
-	padding-top: none;
+	padding-top: 0;
 }
 
 figcaption {
