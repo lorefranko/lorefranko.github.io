@@ -22,6 +22,10 @@ a {
   color: #fff;
 }
 
+p a {
+    color: #000;
+}
+
 header {
   color: #000;
   text-align: center;
