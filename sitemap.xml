@@ -6,8 +6,67 @@
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
 
+
 <url>
   <loc>http://lorenafranco.ca/</loc>
-  <lastmod>2014-12-09T14:03:09+00:00</lastmod>
+  <lastmod>2019-01-31T01:42:55+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
+<url>
+  <loc>http://lorenafranco.ca/index.html</loc>
+  <lastmod>2019-01-31T01:42:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://lorenafranco.ca/services.html</loc>
+  <lastmod>2019-01-31T01:42:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://lorenafranco.ca/keyfoundations.html</loc>
+  <lastmod>2019-01-31T01:42:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://lorenafranco.ca/chantalphotographe.html</loc>
+  <lastmod>2019-01-31T01:42:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://lorenafranco.ca/ottawasouthdental.html</loc>
+  <lastmod>2019-01-31T01:42:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://lorenafranco.ca/tissusdesandes.html</loc>
+  <lastmod>2019-01-31T01:42:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://lorenafranco.ca/j1carpentry.html</loc>
+  <lastmod>2019-01-31T01:42:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://lorenafranco.ca/oscar.html</loc>
+  <lastmod>2019-01-31T01:42:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://lorenafranco.ca/getparking-app.html</loc>
+  <lastmod>2019-01-31T01:42:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://lorenafranco.ca/proposal.html</loc>
+  <lastmod>2019-01-31T01:42:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://lorenafranco.ca/cubana.html</loc>
+  <lastmod>2019-01-31T01:42:55+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+
+
 </urlset>
