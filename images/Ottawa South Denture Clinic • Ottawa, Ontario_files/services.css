@@ -15,23 +15,12 @@
 
 .next{
   text-align: right;
-  margin-right: 12px;
-  padding-bottom: 20px;
-  padding-top: 8px;
-}
-
-.next a:hover{
-  color: #1bc4e1;
 }
 
 @media only screen and (max-width: 539px) {
   .services h4{
   font-size: 17px;
   letter-spacing: 3px;
-  }
-  .next{
-  text-align: center;
-  margin-right: 0px;
   }
 }
 @media only screen and (max-width: 862px) {
@@ -40,10 +29,6 @@
   }
   .services ul{
     font-size: 18px;
-  }
-    .next{
-  text-align: center;
-  margin-right: 0px;
   }
 }
 

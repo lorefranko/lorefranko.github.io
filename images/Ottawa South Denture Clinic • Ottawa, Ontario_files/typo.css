@@ -1,0 +1,214 @@
+
+h2{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 24px;
+    letter-spacing: 3px;
+    line-height: 28px;
+    padding-top: 50px;
+    font-family: "Montserrat", sans-serif;
+}
+
+p{
+  font-size: 1em;
+}
+
+@media only screen and (max-width:500px){
+  footer h2{
+    font-size: 14px;
+    letter-spacing: 1.2px;
+    padding-top: 30px;
+  }
+}
+
+@media only screen and (min-width:501px){
+  footer h2{
+    font-size: 18px;
+    letter-spacing: 3px;
+      }
+}
+
+h3{
+    text-transform: uppercase;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 28px;
+    font-family: "Montserrat", sans-serif;
+}
+
+h4{
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    line-height: 22px;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 12px;
+    margin-top: 35px;
+}
+
+
+
+
+.micro {
+	font-size: 0.7901rem;
+	line-height: 1.4;
+}
+
+a,a:visited,a:hover,a:active{
+  -webkit-backface-visibility:hidden;
+          backface-visibility:hidden;
+  transition:0.5s color ease;
+  text-decoration:none;
+}
+a:hover{
+  color:#1bc4e1;
+}
+a.before:before,a.after:after{
+  content: "";
+  transition:0.5s all ease;
+  -webkit-backface-visibility:hidden;
+          backface-visibility:hidden;
+  position:absolute;
+}
+a.before:before{
+  top:-0.25em;
+}
+a.after:after{
+  bottom:-0.25em;
+}
+
+a.before:hover:before,a.after:hover:after{
+  width:100%;
+}
+
+.push {
+	margin-bottom: .8rem;
+}
+
+.push-none, .push-0 {
+	margin-bottom: 0;
+}
+
+.push-double, .push-2 {
+	margin-bottom: 3.0000rem;
+}
+
+.push-half, .push-1-2 {
+	margin-bottom: 0.7500rem;
+}
+
+.pad-top, .pad-t {
+	padding-top: 1.5rem;
+}
+
+.pad-bottom, .pad-b {
+	padding-bottom: 1.5rem;
+}
+
+.pad-top-double, .pad-t-2 {
+	padding-top: 3.0000rem;
+}
+
+.pad-bottom-double, .pad-b-2 {
+	padding-bottom: 3.0000rem;
+}
+
+.pad-top-half, .pad-t-1-2 {
+	padding-top: 0.7500rem;
+}
+
+.pad-bottom-half, .pad-b-1-2 {
+	padding-bottom: 0.7500rem;
+}
+
+.island {
+	padding: 1.5rem;
+}
+
+.island-half, .island-1-2 {
+	padding: 0.75rem;
+}
+
+.island-double, .island-2 {
+	padding: 3rem;
+}
+
+.gutter {
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+}
+
+.gutter-half, .gutter-1-2 {
+	padding-left: 0.75rem;
+	padding-right: 0.75rem;
+}
+
+.gutter-double, .gutter-2 {
+	padding-left: 3rem;
+	padding-right: 3rem;
+}
+
+.error h4,
+.error p {
+	text-transform: none;
+	color: #000;
+}
+
+.error a {
+	text-decoration: none;
+	padding: 1rem 1.5rem;
+	color: #f7ec42;
+	text-align: center;
+	text-transform: uppercase;
+
+		-webkit-box-shadow: inset 0px 0px 0px 4px #f7ec42;
+		-moz-box-shadow: inset 0px 0px 0px 4px #f7ec42;
+		-ms-box-shadow: inset 0px 0px 0px 4px #f7ec42;
+		-o-box-shadow: inset 0px 0px 0px 4px #f7ec42;
+		box-shadow: inset 0px 0px 0px 4px #f7ec42;
+}
+
+.error a:hover,
+.error a:active{
+	color: #fff;
+	/*
+	-webkit-box-shadow: inset 0px 0px 0px 40px #f7ec42;
+	-moz-box-shadow: inset 0px 0px 0px 40px #f7ec42;
+	-ms-box-shadow: inset 0px 0px 0px 40px #f7ec42;
+	-o-box-shadow: inset 0px 0px 0px 40px #f7ec42;
+	box-shadow: inset 0px 0px 0px 40px #f7ec42; */
+}
+
+.piece h4 {
+	color: #1e273e;
+	border-bottom: 2px solid #1e273e;
+}
+
+.piece p {
+	color: #000;
+	padding: 1rem 1rem 0;
+	text-align: left;
+}
+
+.details {
+	text-transform: uppercase;
+	color: #1e273e;
+	text-align: left;
+	font-weight: 400;
+	padding-top: 0;
+}
+
+figcaption {
+	color: #000;
+}
+
+.quote {
+	color: #A8A7A3;
+	padding: 6rem 1rem 0;
+	max-width: 30rem;
+	margin: auto auto;
+	font-size: 2rem;
+		font-weight: 100;
+
+}
